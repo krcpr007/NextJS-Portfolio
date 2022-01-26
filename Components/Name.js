@@ -2,7 +2,7 @@ import { FaGithubAlt } from "react-icons/fa";
 const Name = ()=> {
   return (
     <>
-      <div className="bg-slate-900 p-5 lg:px-48 lg:pt-48">
+      <div className="bg-slate-700 p-5 lg:px-48 lg:pt-48">
           <p className="text-emerald-500 font-medium">Hii, my name is</p>
           <h1 className="text-gray-400 font-smeibold text-5xl md:text-8xl">Rajan kumar</h1>
           <h1 className="text-gray-400 font-medium text-3xl md:text-7xl">I build things for the web</h1>
