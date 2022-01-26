@@ -5,7 +5,7 @@ function Layout({children}) {
     return (
       <>
        <Head>
-          <title>My page title</title>
+          <title>Rajan Kumar</title>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Head>
       <Navbar/>
