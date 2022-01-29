@@ -1,3 +1,5 @@
+import Image from "next/image";
+import mypic from '../public/rajan.jpg'
 const About = (props)=>{
     return (
     <>
@@ -8,9 +10,9 @@ const About = (props)=>{
                     <hr className=" opacity-10" /> 
                 </div>
             <div className="mt-5 lg:flex ">
-                   <img className="rounded-lg shadow-slate-300 md:w-3/5 lg:w-1/4 opacity-70 hover:opacity-100" src="rajan.jpg" alt="mypic" />
-                <div className="md:text-justify text-gray-500 md:px-8 shadow-xl bg-slate-900 rounded p-3 md:py-3 mt-2 md:mt-0 md:ml-5">
-                    <p>Hello! My name is Rajan and I enjoy creating things that live on <br/>the internet. My interest in web development started back in 2020 <br/> when I decided to try editing custom Tumblr themes — turns out  <br/>hacking together a custom reblog button taught me a lot  <br/>about HTML & CSS!<br/>
+                   <Image className="rounded-lg shadow-slate-300 md:w-3/5 lg:w-1/4 opacity-70 hover:opacity-100" src={mypic} width={350} height={350} alt="mypic" />
+                <div className="md:text-justify text-gray-500 md:px-8 shadow-xl bg-slate-900 rounded p-3 md:py-3 mt-2 md:mt-0 md:ml-5 sm:w-4/5">
+                    <p>Hello! My name is Rajan and I enjoy creating things that live on the internet. My interest in web development started back in 2020 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
                        Here are a few technologies I’ve been working with recently:
                     </p>   
                 <div className="md:px-4 mt-2">
