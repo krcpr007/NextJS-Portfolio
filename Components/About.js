@@ -1,13 +1,13 @@
 import Image from "next/image";
-import mypic from '../public/rajan.jpg'
-const About = (props)=>{
+import mypic from '../public/rajan.jpg';
+const About = ()=>{
     return (
     <>
-    <div data-aos={props.dataAos} id="about" className="bg-slate-700 p-5 lg:px-48 lg:py-28">
+    <div id="about" className="bg-slate-700 p-5 lg:px-48 lg:py-28">
         <div>
                 <div className="">
                     <h2 className="text-4xl text-gray-500 font-medium"><span className="text-emerald-400" >01.</span> About Me</h2>
-                    <hr className=" opacity-10" /> 
+                    <hr className=" opacity-10" />
                 </div>
             <div className="mt-5 lg:flex ">
                    <Image className="rounded-lg shadow-slate-300 md:w-3/5 lg:w-1/4 opacity-70 hover:opacity-100" src={mypic} width={350} height={350} alt="mypic" />
@@ -25,7 +25,7 @@ const About = (props)=>{
                         </div>
                         <div className="mx-1">
                         <li>Java</li>
-                        <li>OOP's</li>
+                        <li>OOP&#39;s</li>
                         <li>C <span className="text-emerald-400">&</span> C++</li>
                         <li>Bootstrap</li>
                         </div>

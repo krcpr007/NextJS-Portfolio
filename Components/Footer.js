@@ -3,12 +3,11 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
-const Footer = (props) => {
+const Footer = () => {
   return (
     <>
       <footer>
         <div id="contact"
-          data-aos={props.dataAos}
           data-aos-once="true"
           className="text-center bg-slate-700 p-5 text-gray-400"
         >
