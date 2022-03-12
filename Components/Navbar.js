@@ -1,4 +1,4 @@
-// import {Link} from 'next/link'
+import Link from 'next/link'
 import Image from "next/image";
 import rajan from '../public/rajan.jpg'
 const Navbar = () => {
@@ -6,14 +6,14 @@ const Navbar = () => {
     <>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-slate-900 shadow-2xl sticky top-0 z-50">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-        
-          <a href="/" className="flex">
+         <Link href={"/"} >
+           <a  className="flex">
               <Image src={rajan} className="rounded-full" width={45} height={45} alt="" />
             <span className="self-center text-lg font-semibold whitespace-nowrap ml-2 dark:text-white logo-name">
               Rajan kumar
             </span>
           </a>
-           
+         </Link>
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
