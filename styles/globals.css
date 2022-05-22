@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lavishly+Yours&family=Pacifico&display=swap');
+
+.heading{
+    font-family: 'Lavishly Yours', cursive !important;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0F172A;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #34D399;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #0F172A;
+  }
