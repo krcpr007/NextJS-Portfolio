@@ -6,14 +6,14 @@ const Navbar = () => {
     <>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-slate-900 shadow-2xl sticky top-0 z-50">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
-         <Link href={"/"} >
-           <a  className="flex">
+          <Link href={"/"} >
+            <a className="flex">
               <Image src={rajan} className="rounded-full" width={45} height={45} alt="" />
-            <span className="self-center text-lg font-semibold whitespace-nowrap ml-2 dark:text-white logo-name">
-              Rajan kumar
-            </span>
-          </a>
-         </Link>
+              <span className=" self-center text-lg font-semibold whitespace-nowrap heading ml-2 dark:text-white">
+                Rajan kumar
+              </span>
+            </a>
+          </Link>
           <button
             data-collapse-toggle="mobile-menu"
             type="button"
@@ -84,10 +84,11 @@ const Navbar = () => {
               </li>
               <li>
                 <a
-                  href=""
+                  href="https://drive.google.com/file/d/1zfBULP53sW_nAuBPQcp_ancHA__rbngb/view?usp=sharing"
+                  target={"_blank"} rel="noreferrer"
                   className="block py-2 pr-4 pl-3 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                <button className=" text-emerald-300" >Resume</button>
+                  <button className=" text-emerald-300" >Resume</button>
                 </a>
               </li>
             </ul>
