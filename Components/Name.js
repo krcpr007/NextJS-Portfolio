@@ -6,7 +6,7 @@ const Name = ()=> {
           <p className="text-emerald-500 font-medium">Hii, my name is</p>
           <h1 className="text-gray-400 font-smeibold text-5xl md:text-8xl">Rajan kumar</h1>
           <h1 className="text-gray-400 font-medium text-3xl md:text-7xl">I build things for the web</h1>
-          <p className="text-gray-500 font-medium  mt-2 md:m-6">I’m a software engineer specializing in building (and occasionally
+          <p className="text-gray-500 font-medium  mt-2 md:m-6">I’m a computer science and engineering student specializing in building (and occasionally
               designing) exceptional digital experiences. Currently, I’m focused on my B.tech at Nit patna
           </p>
           <div>
