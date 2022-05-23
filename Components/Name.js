@@ -9,8 +9,9 @@ const Name = ()=> {
           <p className="text-gray-500 font-medium  mt-2 md:m-6">I’m a computer science and engineering student specializing in building (and occasionally
               designing) exceptional digital experiences. Currently, I’m focused on my B.tech at Nit patna
           </p>
-          <div>
-            <button className=" flex border shadow-xl hover: hover:shadow-emerald-400 border-emerald-500 px-3 py-1 m-2 font-medium rounded-lg bg-emerald-400  text-slate-900  text-lg"> <FaGithubAlt className="my-1 mx-1"/>  <span className="">My Github</span> </button>
+          <div className="mt-2 md:mt-0">
+            {/*  flex border shadow-xl hover: hover:shadow-emerald-400 border-emerald-500 px-3 py-1 m-2 font-medium rounded-lg bg-emerald-400  text-slate-900  text-lg */}
+            <button className=" flex btn-github"><a className="flex" href="https://github.com/krcpr007" rel="noreferrer" target='_blank'> <FaGithubAlt className="my-1 mx-1"/>My Github</a></button>
           </div>
       </div>
     </>
