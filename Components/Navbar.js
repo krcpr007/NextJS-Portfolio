@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from "next/image";
 import rajan from '../public/rajan.jpg'
 const Navbar = () => {
+
   return (
     <>
       <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-slate-900 shadow-2xl sticky top-0 z-50">
@@ -22,7 +23,8 @@ const Navbar = () => {
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
-            <svg
+            <svg 
+            id='menu-button'
               className="w-6 h-6"
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -52,7 +54,7 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                  className="block py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent  md:p-0 dark:text-white"
                   aria-current="page"
                 >
                   Home
