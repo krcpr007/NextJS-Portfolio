@@ -120,10 +120,10 @@ const Project = () => {
                     ShowProjects ? (
                         <div>
                             <div className="grid grid-cols-1 gap-8 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2">
-                            <ProjectCard/>
-                            <ProjectCard/>
-                            <ProjectCard/>
-                            <ProjectCard/>
+                            <ProjectCard ProjectName='Project' repoLink="/" details='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum optio repellendus labore explicabo ex impedit ab numquam. Eius tempore ullam officia debitis beatae esse iure nesciunt, ea at doloribus aliquid!' deployedLink="/" techStack1='Tailwind CSS' techStack2='ReactJS' />
+                            
+                            <ProjectCard ProjectName='Nasa Pictures' repoLink="https://github.com/krcpr007/ReactJs-Nasa-App" details='Nasa pictures is a website based on Reactjs and bootstrap using NASA API. Here you can see the astronomy picture of the day and details of that picture, mars pictures which are taken by NASA satellites.' deployedLink="https://nasa.pages.dev/apod" techStack2='Bootstrap' techStack1='ReactJS' techStack3="NASA API" />
+                            <ProjectCard ProjectName='Bus Reservation' repoLink="https://github.com/krcpr007/busReservation" details='Bus Reservation is based on Data structure and algorithm using c programing language where users can come to book their particular bus and particular seat in that bus. They can see the bus list and seating arrangement which seats are empty or not on the bus if the user wants to cancel the ticket that can also be done by giving the reservation number which is generated at the time of booking.' deployedLink="/" techStack1='C language' techStack2='DSA' techStack3='BST' />
                             </div>
                         </div>
                     ) : null
