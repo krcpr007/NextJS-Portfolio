@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { FaGithubAlt } from 'react-icons/fa';
-import { GiFallDown } from 'react-icons/gi'
+import { BsArrowDownCircle } from 'react-icons/bs'
+import { BsArrowUpCircle } from 'react-icons/bs'
 import Image from 'next/image'
 import newsmainia from '../public/newsmania.jpg'
 import github from '../public/github.jpg'
@@ -31,12 +32,14 @@ const Project = () => {
                                     <li>It has medium contrast a or lite contrast theme. <br /></li>
                                     <li>Dark navy blue have editor color <br /></li>
                                     <li> You can download it from vs code extension marketplace and you can use it. <br /></li>
-                                    <li><a href="https://marketplace.visualstudio.com/items?itemName=Rajankumar.bharti-theme&ssr=false" target="_blank" rel="noreferrer" className='text-emerald-300 hover:underline'> Install</a></li>
+                                    <li>
+                                        <a href="https://marketplace.visualstudio.com/items?itemName=Rajankumar.bharti-theme&ssr=false" target="_blank" rel="noreferrer" className='text-emerald-300 hover:underline'> Install</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div className="">
                                 <a href="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg" target="_blank" rel="noreferrer" >
-                                    <Image src={bhartiTheme} className='shadow-xl border-2 border-emerald-300 rounded-md w-full ' alt="" />
+                                    <Image src={bhartiTheme} className='shadow-xl rounded-md w-full ' alt="ProjectImg" />
                                 </a>
                             </div>
                         </div>
@@ -50,16 +53,19 @@ const Project = () => {
                                     <ul className='list-disc list-inside'>
                                         <li>This is <span className="text-emerald-300 font-medium">React web app</span> where we can find github users </li>
                                         <li>You can see also user profile like avatar, bio, links, repositories and they are hireable or not </li>
-                                        <li>It made by using <a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'">Github API</a> and<a href="https://reactjs.org/" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'"> ReactJS </a> </li>
+                                        <li>It made by using <a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'">Github API</a> and<a href="https://reactjs.org/" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'"> ReactJS </a> 
+                                        </li>
                                         <li>
                                             <a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer"> <span className='text-emerald-300 font-medium hover:underline'>Github API</span> </a> is a simple, provides whole github data.
                                         </li>
-                                        <li><a href="https://github-finder-reactjs.pages.dev/" title='github-finder' target="_blank" rel="noreferrer" className='text-emerald-300 font-medium hover:underline'>Visit site</a></li>
+                                        <li>
+                                            <a href="https://github-finder-reactjs.pages.dev/" title='github-finder' target="_blank" rel="noreferrer" className='text-emerald-300 font-medium hover:underline'>Visit site</a>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="">
                                     <a href="https://github.com/krcpr007/github-finder-ReactJS/blob/main/public/image1.jpg">
-                                        <Image src={github} className='shadow-xl border-2 border-emerald-300 rounded-md w-full ' alt="projectimg" />
+                                        <Image src={github} className='shadow-xl border-2 border-emerald-300 rounded-md w-full ' alt="ProjectImg" />
                                     </a>
                                 </div>
                             </div>
@@ -76,7 +82,7 @@ const Project = () => {
                                         <li><a href="https://marvelhub.pages.dev/" target="_blank" rel="noreferrer" className='text-emerald-300 font-medium hover:underline'>Visit site</a></li>
                                     </ul>
                                 </div>
-                                <div className="project-img">
+                                <div className="">
                                     <Image src={marvelhub} className='shadow border-2 border-emerald-300 rounded-md w-full' alt="project1img" />
                                     {/* <img src="https://raw.githubusercontent.com/krcpr007/MarvelHub/blob/main/public/image2.jpg" alt="" /> */}
                                 </div>
@@ -110,9 +116,9 @@ const Project = () => {
                 <div className='p-2 justify-center flex'>
                     {
                         ShowProjects ? (
-                            <button className='rounded-sm border-2 border-emerald-300 p-2 text-emerald-300' onClick={handleShowLessProjects}>Show less <GiFallDown className='inline' /> </button>
+                            <button className='rounded-md border-2 border-emerald-300 p-2 text-emerald-300 font-extralight' onClick={handleShowLessProjects}>Show less <BsArrowUpCircle className='inline' /> </button>
                         ) : (
-                            <button className='rounded-sm border-2 border-emerald-300 p-2 text-emerald-300 animate-bounce' onClick={handleShowMoreProjects}>Show more <GiFallDown className='inline' /> </button>
+                            <button className='rounded-md  border-2 border-emerald-300 p-2 text-emerald-300 font-extralight ' onClick={handleShowMoreProjects}>Show more <BsArrowDownCircle className='inline animate-bounce' /> </button>
                         )
                     }
                 </div>
@@ -120,10 +126,11 @@ const Project = () => {
                     ShowProjects ? (
                         <div>
                             <div className="grid grid-cols-1 gap-8 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2">
-                            <ProjectCard ProjectName='Project' repoLink="/" details='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum optio repellendus labore explicabo ex impedit ab numquam. Eius tempore ullam officia debitis beatae esse iure nesciunt, ea at doloribus aliquid!' deployedLink="/" techStack1='Tailwind CSS' techStack2='ReactJS' />
-                            
-                            <ProjectCard ProjectName='Nasa Pictures' repoLink="https://github.com/krcpr007/ReactJs-Nasa-App" details='Nasa pictures is a website based on Reactjs and bootstrap using NASA API. Here you can see the astronomy picture of the day and details of that picture, mars pictures which are taken by NASA satellites.' deployedLink="https://nasa.pages.dev/apod" techStack2='Bootstrap' techStack1='ReactJS' techStack3="NASA API" />
-                            <ProjectCard ProjectName='Bus Reservation' repoLink="https://github.com/krcpr007/busReservation" details='Bus Reservation is based on Data structure and algorithm using c programing language where users can come to book their particular bus and particular seat in that bus. They can see the bus list and seating arrangement which seats are empty or not on the bus if the user wants to cancel the ticket that can also be done by giving the reservation number which is generated at the time of booking.' deployedLink="/" techStack1='C language' techStack2='DSA' techStack3='BST' />
+                                <ProjectCard ProjectName='InQuera' repoLink="https://github.com/krcpr007/hackNITP_INQUERA" details="Inquera mission is to share and grow the world’s knowledge. the people who have the knowledge to the people who need it, to bring together people with different perspectives so they can understand each other better, and to empower everyone to share their knowledge for the benefit of the rest of the world." deployedLink="/" techStack1='Tailwind CSS' techStack2='MERN' techStack3="HackNITP4.0" />
+
+                                <ProjectCard ProjectName='Nasa Pictures' repoLink="https://github.com/krcpr007/ReactJs-Nasa-App" details='Nasa pictures is a website based on Reactjs and bootstrap using NASA API. Here you can see the astronomy picture of the day and details of that picture, mars pictures which are taken by NASA satellites.' deployedLink="https://nasa.pages.dev/apod" techStack2='Bootstrap' techStack1='ReactJS' techStack3="NASA API" />
+                                <ProjectCard ProjectName='Bus Reservation' repoLink="https://github.com/krcpr007/busReservation" details='Its based on Data structure and algorithm written in c  lang. where users can come to book their particular bus and particular seat in that bus. They can see the bus list and which seats are empty or not on the bus. If the user wants to cancel the ticket that can also be done by giving the reservation number which is generated at the time of booking.' deployedLink="/" techStack1='C language' techStack2='DSA' techStack3='BST' />
+                                
                             </div>
                         </div>
                     ) : null

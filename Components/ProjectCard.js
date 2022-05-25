@@ -27,9 +27,9 @@ const ProjectCard = ({ ProjectName, repoLink, details, deployedLink, techStack1,
                     {details}
                 </p>
                 <div>
-                    <span className='text-emerald-300 text-xs font-medium bg-slate-700 rounded-md py-0.5 px-1 mr-1'>{techStack1}</span>
-                    <span className='text-emerald-300 text-xs font-medium bg-slate-700 rounded-md py-0.5 px-1 m-1'>{techStack2}</span>
-                    {techStack3 ? (<span className='text-emerald-300 text-xs font-medium bg-slate-700 rounded-md py-0.5 px-1 m-1'>{techStack3}</span>) : null}
+                    <span className='text-gray-400 text-xs font-thin font-mono py-0.5 px-1 mr-1'>{techStack1}</span>
+                    <span className='text-gray-400 text-xs font-thin font-mono py-0.5 px-1 m-1'>{techStack2}</span>
+                    {techStack3 ? (<span className='text-gray-400 text-xs font-mono font-thin py-0.5 px-1 m-1'>{techStack3}</span>) : null}
                 </div>
             </div>
         </>
