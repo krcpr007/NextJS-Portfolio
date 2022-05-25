@@ -75,3 +75,23 @@
          0 0 2.5em 2em var(--glow-spread-color),
          inset 0 0 .5em .25em var(--glow-color);
  }
+
+ /* typing style in name component  */
+.typing{
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 5px #34D399 solid;
+  animation: type 8s steps(27),
+    blink .5s step-end infinite alternate;
+  color: #9CA3AF;
+}
+@keyframes type {
+  from { width: 0 }
+  to { width: 110% }
+}
+
+@keyframes blink {
+  50%{
+    border-color: transparent;
+  }
+}
