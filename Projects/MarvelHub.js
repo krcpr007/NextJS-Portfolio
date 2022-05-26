@@ -16,11 +16,10 @@ function MarvelHub() {
                                 <li><a href="https://marvelhub.pages.dev/" target="_blank" rel="noreferrer" className='text-emerald-300 font-medium hover:underline'>Visit site</a></li>
                             </ul>
                         </div>
-                        <div className="w-4/5">
+                        <div className="md:w-4/5">
                             <a href="https://github.com/krcpr007/MarvelHub/blob/main/public/image2.jpg">
                                 <Image src={marvelhub} className='shadow border-2 border-emerald-300 rounded-md w-full' alt="project1img" />
                             </a>
-
                         </div>
                     </div>
                 </div>

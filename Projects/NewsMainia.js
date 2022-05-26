@@ -19,7 +19,7 @@ function NewsMainia() {
                                 </li>
                             </ul>
                         </div>
-                        <div className="w-4/5">
+                        <div className="md:w-4/5">
                             <a href="https://raw.githubusercontent.com/krcpr007/NEWSMAiNIA/main/public/images/Readme.jpg">
                                 <Image src={newsmainia} className='shadow border-2 border-emerald-300 rounded-md w-full ' alt="projectimg" />
                             </a>

@@ -19,7 +19,7 @@ const StudentHub = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="w-2/3">
+                    <div className="md:w-2/3">
                         <a href="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg" target="_blank" rel="noreferrer" >
                             <Image src={bhartiTheme} className='shadow-xl rounded-md ' alt="ProjectImg" />
                         </a>

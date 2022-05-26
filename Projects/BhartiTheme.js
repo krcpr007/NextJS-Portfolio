@@ -18,7 +18,7 @@ const BhartiTheme = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="">
+                    <div className="md:w-full">
                         <a href="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg" target="_blank" rel="noreferrer" >
                             <Image src={bhartiTheme} className='shadow-xl rounded-md  ' alt="ProjectImg" />
                         </a>
