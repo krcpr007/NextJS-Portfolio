@@ -18,7 +18,7 @@ const About = () => {
                             <div className="md:px-4 mt-2">
                                 <ul className="list-[square]  flex text-gray-500 list-inside">
                                     <div className="mx-0 ">
-                                        <li>ReactJS</li>
+                                        <li>MERN Stack</li>
                                         <li>NextJS</li>
                                         <li>JavaScript(<span className="text-emerald-300">ES6+</span>)</li>
                                         <li>Node.js</li>
@@ -27,7 +27,7 @@ const About = () => {
                                         <li>Java</li>
                                         <li>OOP&#39;s</li>
                                         <li>C <span className="text-emerald-300">&</span> C++</li>
-                                        <li>Bootstrap</li>
+                                        <li>Tailwind</li>
                                     </div>
                                 </ul>
                             </div>
