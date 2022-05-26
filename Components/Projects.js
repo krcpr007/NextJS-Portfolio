@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { BsArrowDownCircle } from 'react-icons/bs'
 import { BsArrowUpCircle } from 'react-icons/bs'
 import ProjectCard from './ProjectCard';
-import StudentHub from '../Projectjs/StudentHub';
-import BhartiTheme from '../Projectjs/BhartiTheme';
-import GitHubFinder from '../Projectjs/GitHubFinder';
-import MarvelHub from '../Projectjs/MarvelHub';
-import NewsMainia from '../Projectjs/NewsMainia';
+import StudentHub from '../Projects/StudentHub';
+import BhartiTheme from '../Projects/BhartiTheme';
+import GitHubFinder from '../Projects/GitHubFinder';
+import MarvelHub from '../Projects/MarvelHub';
+import NewsMainia from '../Projects/NewsMainia';
 const Project = () => {
     const [ShowProjects, setShowProjects] = useState(false);
     const handleShowMoreProjects = () => {
