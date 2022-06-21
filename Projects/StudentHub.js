@@ -21,7 +21,7 @@ const StudentHub = () => {
                         </ul>
                     </div>
                     <div className="md:w-2/3">
-                        <a href="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg" target="_blank" rel="noreferrer" >
+                        <a href="https://raw.githubusercontent.com/krcpr007/Student-Hub-NITP/master/public/studentHub.jpg" target="_blank" rel="noreferrer" >
                             <Image src={studentHub} className='shadow-xl rounded-md ' alt="ProjectImg" />
                         </a>
                     </div>
