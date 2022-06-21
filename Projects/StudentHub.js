@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import bhartiTheme from '../public/theme.jpg'
+import studentHub from '../public/studentHub.jpg'
 import {FaGithubAlt} from 'react-icons/fa';
 const StudentHub = () => {
     return (
@@ -17,11 +17,12 @@ const StudentHub = () => {
                             <li>
                                 <a href="https://studenthubnitp.vercel.app/" target="_blank" rel="noreferrer" className='text-emerald-300 hover:underline'> Visit site</a>
                             </li>
+                            <li className='text-red-500 font-semibold'>Not completed</li>
                         </ul>
                     </div>
                     <div className="md:w-2/3">
                         <a href="https://raw.githubusercontent.com/krcpr007/BhartiTheme/master/image/bharti_theme2.jpg" target="_blank" rel="noreferrer" >
-                            <Image src={bhartiTheme} className='shadow-xl rounded-md ' alt="ProjectImg" />
+                            <Image src={studentHub} className='shadow-xl rounded-md ' alt="ProjectImg" />
                         </a>
                     </div>
                 </div>
