@@ -5,7 +5,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-slate-900 shadow-2xl sticky top-0 z-50">
+      <nav className="bg-slate-900 border-gray-200 px-2 sm:px-4 py-2.5  dark:bg-slate-900 shadow-2xl sticky top-0 z-50">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <Link href={"/"} >
             <a className="flex">
