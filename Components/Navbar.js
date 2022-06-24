@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link href={"/"} >
             <a className="flex">
               <Image src={rajan} className="rounded-full" width={45} height={45} alt="" />
-              <span className=" self-center text-lg font-semibold whitespace-nowrap heading ml-2 dark:text-white">
+              <span className=" self-center text-lg font-semibold whitespace-nowrap heading ml-2 text-emerald-300">
                 Rajan kumar
               </span>
             </a>
