@@ -15,9 +15,9 @@ const Footer = () => {
             Get In Touch
           </h1>
           <p className="text-center font-medium m-2 p-1">
-            Although I’m not currently looking for any new opportunities, my
-            inbox is <br /> always open. Whether you have a question or just
-            want to say hi, I’ll try my <br /> best to get back to you!
+          Yes !! I am currently looking for any new opportunities for the SDE role, <br /> my inbox 
+       is always open. Whether you want to hire me and have a question or just want to <br />  say hello, I will try my own
+       best to get back to you!
           </p>
 
           
