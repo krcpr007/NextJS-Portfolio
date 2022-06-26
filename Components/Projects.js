@@ -7,6 +7,7 @@ import BhartiTheme from '../Projects/BhartiTheme';
 import GitHubFinder from '../Projects/GitHubFinder';
 import MarvelHub from '../Projects/MarvelHub';
 import NewsMainia from '../Projects/NewsMainia';
+import Spotify from '../Projects/Spotify';
 const Project = () => {
     const [ShowProjects, setShowProjects] = useState(false);
     const handleShowMoreProjects = () => {
@@ -17,19 +18,19 @@ const Project = () => {
     }
     return (
         <>
-            <div id='projects' data-aos-once="true" className="bg-slate-700 p-5 lg:px-48 lg:py-28">
+            <div id='projects' data-aos-once="true" className="bg-slate-800 p-5 lg:px-48 lg:py-28">
                 <div className="">
                     <h2 className="text-2xl md:text-4xl text-gray-400 font-medium"><span className='text-emerald-300'>02.</span> Some Things I’ve Built</h2>
                     <hr className='my-1 opacity-10' />
                     <StudentHub />
+
+                    <Spotify/>
 
                     <BhartiTheme />
 
                     <GitHubFinder />
 
                     <MarvelHub />
-
-                    <NewsMainia />
                 </div>
                 <div className='p-2 justify-center flex'>
                     {
@@ -44,6 +45,8 @@ const Project = () => {
                     ShowProjects ? (
                         <div>
                             <div className="grid grid-cols-1 gap-8 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2">
+                                <ProjectCard ProjectName='NEWS MAiNIA' repoLink="https://github.com/krcpr007/NEWSMAiNIA" details="This is React web app where we can read lots of news. Category-wise news (ex-science,business,sports). It made by using NEWS24 API and Reactjs. News API is a simple, easy-to-use REST API that returns JSON search results for current and historic news articles published by over 80,000 worldwide sources." deployedLink="/" techStack1='Bootstrap' techStack2='News API' techStack3="ReactJS" />
+
                                 <ProjectCard ProjectName='InQuera' repoLink="https://github.com/krcpr007/hackNITP_INQUERA" details="Inquera mission is to share and grow the world’s knowledge. the people who have the knowledge to the people who need it, to bring together people with different perspectives so they can understand each other better, and to empower everyone to share their knowledge for the benefit of the rest of the world." deployedLink="/" techStack1='Tailwind CSS' techStack2='MERN' techStack3="HackNITP4.0" />
 
                                 <ProjectCard ProjectName='Nasa Pictures' repoLink="https://github.com/krcpr007/ReactJs-Nasa-App" details='Nasa pictures is a website based on Reactjs and bootstrap using NASA API. Here you can see the astronomy picture of the day and details of that picture, mars pictures which are taken by NASA satellites.' deployedLink="https://nasa.pages.dev/apod" techStack2='Bootstrap' techStack1='ReactJS' techStack3="NASA API" />
