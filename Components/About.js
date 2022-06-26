@@ -3,7 +3,7 @@ import MyPic from '../public/rajan.jpg';
 const About = () => {
     return (
         <>
-            <div id="about" className="bg-slate-700 p-5 lg:px-48 lg:py-28">
+            <div id="about" className="bg-slate-800 p-5 lg:px-48 lg:py-28">
                 <div>
                     <div className="">
                         <h2 className="text-4xl text-gray-500 font-medium"><span className="text-emerald-400" >01.</span> About Me</h2>
