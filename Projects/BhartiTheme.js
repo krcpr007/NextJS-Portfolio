@@ -5,7 +5,7 @@ const BhartiTheme = () => {
     return (
         <>
             <div className="text-gray-400">
-                <a href="https://github.com/krcpr007/BhartiTheme" rel="noreferrer" target="_blank" > <h2 className='text-xl my-2 font-semibold' > <span className='text-emerald-300' >02. </span> Bharti Theme <FaGithubAlt className='inline text-emerald-300' />  </h2> </a>
+                <a href="https://github.com/krcpr007/BhartiTheme" rel="noreferrer" target="_blank" > <h2 className='text-xl my-2 font-semibold' > <span className='text-emerald-300' >03. </span> Bharti Theme <FaGithubAlt className='inline text-emerald-300' />  </h2> </a>
                 <div className="md:flex">
                     <div className=''>
                         <ul className='list-disc list-inside'>

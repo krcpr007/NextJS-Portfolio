@@ -5,7 +5,7 @@ function GitHubFinder() {
     return (
         <>
             <div className="text-gray-400">
-                <a href="https://github.com/krcpr007/github-finder-ReactJS" rel="noreferrer" target="_blank" > <h2 className='text-xl my-2 font-semibold' > <span className='text-emerald-300' >03. </span>Github Finder<FaGithubAlt className='inline text-emerald-300' />  </h2> </a>
+                <a href="https://github.com/krcpr007/github-finder-ReactJS" rel="noreferrer" target="_blank" > <h2 className='text-xl my-2 font-semibold' > <span className='text-emerald-300' >04. </span>Github Finder<FaGithubAlt className='inline text-emerald-300' />  </h2> </a>
                 <div className='md:flex'>
                     <div>
                         <ul className='list-disc list-inside'>
