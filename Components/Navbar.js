@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link href={"/"} >
             <a className="flex">
               <Image src={rajan} className="rounded-full" width={45} height={45} alt="" />
-              <span className=" self-center text-lg font-semibold whitespace-nowrap heading ml-2 text-emerald-300">
+              <span className=" self-center text-lg font-semibold whitespace-nowrap heading ml-2 text-emerald-300 neonText">
                 Rajan kumar
               </span>
             </a>
@@ -54,41 +54,41 @@ const Navbar = () => {
               <li>
                 <a
                   href="#"
-                  className="block py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent  md:p-0 dark:text-white"
+                  className="block font-mono py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent  md:p-0 dark:text-white"
                   aria-current="page"
                 >
-                  Home
+                 <span className='text-emerald-300'>01.</span>Home
                 </a>
               </li>
               <li>
                 <a
                   href="#about"
-                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className=" font-mono block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  About
+                <span className='text-emerald-300 font-mono'>02.</span>About
                 </a>
               </li>
               <li>
                 <a
                   href="#projects"
-                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block font-mono py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Projects
+                 <span className='text-emerald-300 font-mono'>03.</span>Projects
                 </a>
               </li>
               <li>
                 <a
                   href="#contact"
-                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-mono"
                 >
-                  Contact
+                 <span className='text-emerald-300 font-mono'>04.</span>Contact
                 </a>
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1zfBULP53sW_nAuBPQcp_ancHA__rbngb/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1mk62t09UnlHCtr5EL1lSXUDwq1FHSSSO/view?usp=sharing"
                   target={"_blank"} rel="noreferrer"
-                  className="block py-2 pr-4 pl-3 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pr-4 pl-3 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-mono"
                 >
                   <button className=" text-emerald-300" >Resume</button>
                 </a>
