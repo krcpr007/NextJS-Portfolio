@@ -11,7 +11,8 @@ function SocialMediaLinks() {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-20px] rounded-t hover:rounded duration-300 '>
               <a
                 className='flex justify-between items-center w-full text-gray-300'
-                href='#ab'
+                href='https://www.linkedin.com/in/krcpr007/'
+                target={'_blank'} rel="noreferrer"
               >
                 <span className='ml-10'>Linkedin</span> <FaLinkedin size={30} className="mx-1 text-blue-600" />
               </a>
@@ -19,7 +20,8 @@ function SocialMediaLinks() {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-20px] hover:rounded duration-300'>
               <a
                 className='flex justify-between items-center w-full text-gray-300'
-                href='#ab'
+                href='https://github.com/krcpr007'
+                target={'_blank'} rel="noreferrer"
               >
                 <span className='ml-11'>Github</span> <FaGithub size={30} className="mx-1"/>
               </a>
@@ -27,7 +29,7 @@ function SocialMediaLinks() {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-20px] hover:rounded duration-300 '>
               <a
                 className='flex justify-between items-center w-full text-gray-300'
-                href='#ab'
+                href='mailto:rajankk.ug20.cse@nitp.ac.in'
               >
                 <span className='ml-12'>Email</span> <SiGmail size={30} className="mx-1 -red-500" fill='red'/>
               </a>
@@ -35,7 +37,7 @@ function SocialMediaLinks() {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-20px] rounded-b hover:rounded duration-300'>
               <a
                 className='flex justify-between items-center w-full text-gray-300'
-                href='#ab'
+                href='/My_resume.pdf' download
               >
                 <span className='ml-10'>Resume</span> <BsFillPersonLinesFill size={30} className="mx-1"/>
               </a>
