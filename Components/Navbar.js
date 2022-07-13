@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from "next/image";
 import rajan from '../public/rajan.jpg'
+import SocialMediaLinks from './SocialMediaLinks';
 const Navbar = () => {
 
   return (
@@ -23,8 +24,8 @@ const Navbar = () => {
             aria-expanded="false"
           >
             <span className="sr-only">Open main menu</span>
-            <svg 
-            id='menu-button'
+            <svg
+              id='menu-button'
               className="w-6 h-6"
               fill="currentColor"
               viewBox="0 0 20 20"
@@ -57,7 +58,7 @@ const Navbar = () => {
                   className="block font-mono py-2 pr-4 pl-3 text-gray-700 rounded md:bg-transparent  md:p-0 dark:text-white"
                   aria-current="page"
                 >
-                 <span className='text-emerald-300'>01.</span>Home
+                  <span className='text-emerald-300'>01.</span>Home
                 </a>
               </li>
               <li>
@@ -65,7 +66,7 @@ const Navbar = () => {
                   href="#about"
                   className=" font-mono block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                <span className='text-emerald-300 font-mono'>02.</span>About
+                  <span className='text-emerald-300 font-mono'>02.</span>About
                 </a>
               </li>
               <li>
@@ -73,7 +74,7 @@ const Navbar = () => {
                   href="#projects"
                   className="block font-mono py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                 <span className='text-emerald-300 font-mono'>03.</span>Projects
+                  <span className='text-emerald-300 font-mono'>03.</span>Projects
                 </a>
               </li>
               <li>
@@ -81,7 +82,7 @@ const Navbar = () => {
                   href="#contact"
                   className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-mono"
                 >
-                 <span className='text-emerald-300 font-mono'>04.</span>Contact
+                  <span className='text-emerald-300 font-mono'>04.</span>Contact
                 </a>
               </li>
               <li>
@@ -95,7 +96,10 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
+
         </div>
+        {/* social media links */}
+        <SocialMediaLinks />
       </nav>
     </>
   );
