@@ -9,7 +9,7 @@ const Footer = () => {
       <footer>
         <div id="contact"
           data-aos-once="true"
-          className="text-center bg-slate-800 p-5 text-gray-400"
+          className="text-center bg-slate-700 p-5 text-gray-400"
         >
           <h1 className="footer-Heading text-center text-3xl md:text-5xl font-medium text-emerald-500 m-2">
             Get In Touch
