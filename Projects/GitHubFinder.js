@@ -1,35 +1,41 @@
 import github from '../public/github.jpg'
 import Image from 'next/image';
 import { FaGithubAlt } from 'react-icons/fa';
+import Button from '../Components/Button';
 function GitHubFinder() {
-    return (
-        <>
-            <div className="text-gray-400">
-                <a href="https://github.com/krcpr007/github-finder-ReactJS" rel="noreferrer" target="_blank" > <h2 className='text-xl my-2 font-semibold' > <span className='text-emerald-300' >04. </span>Github Finder<FaGithubAlt className='inline text-emerald-300' />  </h2> </a>
-                <div className='md:flex'>
-                    <div>
-                        <ul className='list-disc list-inside'>
-                            <li>This is <span className="text-emerald-300 font-medium">React web app</span> where we can find github users </li>
-                            <li>You can see also user profiles like avatar, bio, links, and repositories and whether they are hireable or not</li>
-                            <li>It made by using <a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'">Github API</a> and<a href="https://reactjs.org/" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'"> ReactJS </a>
-                            </li>
-                            <li>
-                                <a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer"> <span className='text-emerald-300 font-medium hover:underline'>Github API</span> </a> is a simple, provides whole github data.
-                            </li>
-                            <li>
-                                <a href="https://github-finder-reactjs.pages.dev/" title='github-finder' target="_blank" rel="noreferrer" className='text-emerald-300 font-medium hover:underline'>Visit site</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div className="md:w-4/5">
-                        <a href="https://github.com/krcpr007/github-finder-ReactJS/blob/main/public/image1.jpg">
-                            <Image src={github} className='shadow-xl border-2 border-emerald-300 rounded-md w-full ' alt="ProjectImg" />
-                        </a>
-                    </div>
+  return (
+    <>
+      <div className="w-full bg-slate-700 md:px-20">
+        <div className="container md:px-10 mx-auto flex flex-col xl:px-0">
+          <div className="w-full lg:flex xl:flex lg:space-x-6 space-y-6 items-center mt-12">
+            <div className="w-full lg:w-1/2 xl:w-1/2 ">
+              <div className="flex flex-col overflow-hidden rounded-lg shadow-2xl">
+                <div className="flex items-center h-8 text-white bg-gray-900">
+                  <div className="w-3 h-3 ml-3 bg-red-400 rounded-full"></div>
+                  <div className="w-3 h-3 ml-2 bg-yellow-400 rounded-full"></div>
+                  <div className="w-3 h-3 ml-2 bg-green-400 rounded-full"></div>
                 </div>
+                <Image src={github}
+                  alt="ProjectImage" className="object-cover w-full h-full" />
+              </div>
             </div>
-        </>
-    )
+            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900">
+              <h2 className="mt text-3xl lg:text-4xl font-bold text-gray-400">
+                Github Finder
+              </h2>
+              <p className="mt-4 text-gray-400 xl:text-lg ">
+                <span className="text-emerald-300 font-medium">React </span>web app where we can find github users. You can see also user profiles like avatar and their repositories and whether they are hireable or not. It made by using <a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'">Github API</a> And Tailwind CSS
+              </p>
+              <div className="flex my-1 ">
+                <Button text={"Demo"} link={'https://github-finder-reactjs.pages.dev/'} />
+                <Button text={"Code"} link={'https://github.com/krcpr007/github-finder-ReactJS'} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 }
 
 export default GitHubFinder

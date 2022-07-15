@@ -1,34 +1,41 @@
 import Image from 'next/image';
 import studentHub from '../public/studentHub.jpg'
-import {FaGithubAlt} from 'react-icons/fa';
+import { FaGithubAlt } from 'react-icons/fa';
+import Button from '../Components/Button';
 const StudentHub = () => {
-    return (
-        <>
-            <div className="text-gray-400">
-                <a href="https://github.com/krcpr007/Student-Hub-NITP" rel="noreferrer" target="_blank" > <h2 className='text-xl my-2 font-semibold' > <span className='text-emerald-300' >01. </span>Student Hub<FaGithubAlt className='inline text-emerald-300' />  </h2> </a>
-                <div className="md:flex">
-                    <div className=''>
-                        <ul className='list-disc list-inside'>
-                            <li>It is a <span className='font-medium text-emerald-300'>ReactJS</span> based  made with help of <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" className='hover:underline text-emerald-300 font-medium'>Tailwind css </a> And firebase <br /></li>
-                            <li>Students can post their achievements, status, Projects, coding skills, and many more things.</li>
-                            <li>Here students can connect to each other and they can <span className="text-emerald-300">chat</span> with any student.</li>
-                            <li>Dark Mode</li>
-                            <li> <span className='text-emerald-300 font-medium'>Cryptography</span> End to end encrypted messaging to an user<br /></li>
-                            <li>
-                                <a href="https://studenthubnitp.vercel.app/" target="_blank" rel="noreferrer" className='text-emerald-300 hover:underline'> Visit site</a>
-                            </li>
-                            <li className='text-red-500 font-semibold'>Not completed</li>
-                        </ul>
-                    </div>
-                    <div className="md:w-2/3">
-                        <a href="https://raw.githubusercontent.com/krcpr007/Student-Hub-NITP/master/public/studentHub.jpg" target="_blank" rel="noreferrer" >
-                            <Image src={studentHub} className='shadow-xl rounded-md ' alt="ProjectImg" />
-                        </a>
-                    </div>
+  return (
+    <>
+      <div className="w-full bg-slate-700 md:px-20">
+        <div className="container md:px-10 mx-auto flex flex-col xl:px-0">
+          <div className="w-full lg:flex xl:flex lg:space-x-6 space-y-6 items-center mt-12">
+            <div className="w-full lg:w-1/2 xl:w-1/2">
+              <div className="flex flex-col overflow-hidden rounded-lg shadow-2xl">
+                <div className="flex items-center h-8 text-white bg-gray-900">
+                  <div className="w-3 h-3 ml-3 bg-red-400 rounded-full"></div>
+                  <div className="w-3 h-3 ml-2 bg-yellow-400 rounded-full"></div>
+                  <div className="w-3 h-3 ml-2 bg-green-400 rounded-full"></div>
                 </div>
+                <Image src={studentHub}
+                  alt="ProjectImage" className="object-cover w-full h-full" />
+              </div>
             </div>
-        </>
-    )
+            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 mt-0 shadow-2xl rounded px-5 md:px-0 bg-gray-900">
+              <h2 className="mt-2 text-3xl lg:text-4xl font-bold text-gray-400">
+                StudentsHub
+              </h2>
+              <p className="mt-4 text-gray-300 xl:text-md">
+                A <span className='font-medium text-emerald-300'>ReactJS</span> based site made with help of <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" className='hover:underline text-emerald-300 font-medium'>Tailwind css </a> And firebase. Students can post their achievements, status, Projects, coding skills, and many more things.
+              </p>
+              <div className="flex">
+                <Button text="Demo" link="" />
+                <Button text="Code" link="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  )
 
 }
 export default StudentHub;
