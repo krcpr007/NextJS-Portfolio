@@ -6,8 +6,8 @@ import StudentHub from '../Projects/StudentHub';
 import BhartiTheme from '../Projects/BhartiTheme';
 import GitHubFinder from '../Projects/GitHubFinder';
 import MarvelHub from '../Projects/MarvelHub';
-import NewsMainia from '../Projects/NewsMainia';
 import Spotify from '../Projects/Spotify';
+import DemoProject from '../Projects/DemoProject';
 const Project = () => {
     const [ShowProjects, setShowProjects] = useState(false);
     const handleShowMoreProjects = () => {
@@ -18,7 +18,7 @@ const Project = () => {
     }
     return (
         <>
-            <div id='projects' data-aos-once="true" className="bg-slate-800 p-5 lg:px-48 lg:py-28">
+            <div id='projects' data-aos-once="true" className="bg-slate-700 p-5 lg:px-48 lg:py-28">
                 <div className="">
                     <h2 className="text-2xl md:text-4xl text-gray-400 font-medium"><span className='text-emerald-300'>02.</span> Some Things I’ve Built</h2>
                     <hr className='my-1 opacity-10' />
