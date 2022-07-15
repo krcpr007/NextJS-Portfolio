@@ -7,7 +7,6 @@ import BhartiTheme from '../Projects/BhartiTheme';
 import GitHubFinder from '../Projects/GitHubFinder';
 import MarvelHub from '../Projects/MarvelHub';
 import Spotify from '../Projects/Spotify';
-import DemoProject from '../Projects/DemoProject';
 const Project = () => {
     const [ShowProjects, setShowProjects] = useState(false);
     const handleShowMoreProjects = () => {
