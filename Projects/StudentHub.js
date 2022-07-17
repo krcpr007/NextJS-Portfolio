@@ -19,16 +19,16 @@ const StudentHub = () => {
                   alt="ProjectImage" className="object-cover w-full h-full" />
               </div>
             </div>
-            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 mt-0 shadow-2xl rounded px-5 md:px-0 bg-gray-900">
+            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 mt-0 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 border-b-2 border-r-2">
               <h2 className="mt-2 text-3xl lg:text-4xl font-bold text-gray-400">
                 StudentsHub
               </h2>
-              <p className="mt-4 text-gray-300 xl:text-md">
-                A <span className='font-medium text-emerald-300'>ReactJS</span> based site made with help of <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" className='hover:underline text-emerald-300 font-medium'>Tailwind css </a> And firebase. Students can post their achievements, status, Projects, coding skills, and many more things.
+              <p className="mt-4 text-gray-400 xl:text-md">
+                A <span className='font-medium text-emerald-300'>ReactJS</span> based site made with help of <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer" className='hover:underline text-emerald-300 font-medium'>Tailwind css </a> And firebase. Students can post their achievements, status, Projects, coding skills, and many more things. Encrypted end-to-end chat system between students using <span className='text-emerald-300 font-medium'>cryptography</span>.
               </p>
-              <div className="flex">
-                <Button text="Demo" link="" />
-                <Button text="Code" link="" />
+              <div className="flex my-1">
+                <Button text="Demo" link="https://studenthubnitp.vercel.app/" />
+                <Button text="Code" link="https://github.com/krcpr007/Student-Hub-NITP/" />
               </div>
             </div>
           </div>

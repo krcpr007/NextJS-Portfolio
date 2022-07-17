@@ -19,15 +19,15 @@ const BhartiTheme = () => {
                   alt="ProjectImage" className="object-cover w-full h-full" />
               </div>
             </div>
-            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900">
+            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 border-b-2 border-r-2">
               <h2 className="mt-2 text-3xl lg:text-4xl font-bold text-gray-400">
                 Bharti Theme
               </h2>
-              <p className="mt-4 text-gray-300 xl:text-md">
+              <p className="mt-4 text-gray-400 xl:text-md">
               A <span className='font-medium text-emerald-300'>VS code dark theme</span> named as Bharti theme made with help of <a href="https://www.npmjs.com/package/generator-code" target="_blank" rel="noreferrer" className='hover:underline text-emerald-300 font-medium'>Yo Code</a> - Extension and Customization Generator. You can download it from vs code extension marketplace and you can use it. 
               </p>
-              <div className="flex">
-                <Button text={"Demo"} link={'https://marketplace.visualstudio.com/items?itemName=Rajankumar.bharti-theme&ssr=false'} />
+              <div className="flex my-1">
+                <Button text={"Download"} link={'https://marketplace.visualstudio.com/items?itemName=Rajankumar.bharti-theme&ssr=false'} />
                 <Button text={"Code"} link={'https://github.com/krcpr007/BhartiTheme'} />
               </div>
             </div>

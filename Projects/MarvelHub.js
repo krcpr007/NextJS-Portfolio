@@ -19,16 +19,17 @@ function MarvelHub() {
                   alt="ProjectImage" className="object-cover w-full h-full" />
               </div>
             </div>
-            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900">
+            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 border-b-2 border-r-2">
               <h2 className="mt-2 text-3xl lg:text-4xl font-bold text-gray-400">
                 Marvel Hub
               </h2>
-              <p className="mt-1 text-gray-400 xl:text-xl">
-                A <a href="https://reactjs.org/" target="_blank" rel="noreferrer" className='font-medium text-emerald-300 '> React </a> web app where we can search about marvel superheroes and comics using <a href="https://developer.marvel.com/" target="_blank" rel="noreferrer" className='text-emerald-300 font-medium'>Marvel API</a>
+              <p className="mt-5 text-gray-400 xl:text-md">
+                A <a href="https://reactjs.org/" target="_blank" rel="noreferrer" className='font-medium text-emerald-300 '> React </a> web app where we can search about marvel superheroes and comics using <a href="https://developer.marvel.com/" target="_blank" rel="noreferrer" className='text-emerald-300 font-medium hover:underline'>Marvel API</a> and Tailwind CSS
               </p>
-              <div className="flex">
-                <Button text={"Demo"} link={'http://spotify-krcpr007.vercel.app/'} />
-                <Button text={"Code"} link={'https://marvelhub.pages.dev/'} />
+              <div className="flex my-1">
+                <Button text={"Demo"} link={'https://marvelhub.pages.dev/'} />
+
+                <Button text={"Code"} link={'https://github.com/krcpr007/marvelHub'} />
               </div>
             </div>
           </div>

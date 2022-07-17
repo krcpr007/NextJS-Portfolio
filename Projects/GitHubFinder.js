@@ -19,11 +19,11 @@ function GitHubFinder() {
                   alt="ProjectImage" className="object-cover w-full h-full" />
               </div>
             </div>
-            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900">
+            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 border-b-2 border-r-2">
               <h2 className="mt text-3xl lg:text-4xl font-bold text-gray-400">
                 Github Finder
               </h2>
-              <p className="mt-4 text-gray-400 xl:text-lg ">
+              <p className="mt-4 text-gray-400 xl:text-md ">
                 <span className="text-emerald-300 font-medium">React </span>web app where we can find github users. You can see also user profiles like avatar and their repositories and whether they are hireable or not. It made by using <a href="https://docs.github.com/en/rest" target="_blank" rel="noreferrer" className="text-emerald-300 font-medium hover:underline'">Github API</a> And Tailwind CSS
               </p>
               <div className="flex my-1 ">
