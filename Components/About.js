@@ -14,7 +14,7 @@ const About = () => {
                         <Image className="rounded-lg shadow-slate-300 md:w-3/5 lg:w-1/4 opacity-70 hover:opacity-100" src={MyPic} width={350} height={350} alt="My-Pic" />
                         </div>
                         <div className="md:text-justify text-gray-500 md:px-8 shadow-xl bg-slate-900 rounded p-3 md:py-3 mt-2 md:mt-0 md:ml-5 sm:w-4/5">
-                            <p>Hello! My name is <span className="text-emerald-300">Rajan</span> and I enjoy creating things that live on the internet. My interest in web development started back in <span className="text-emerald-300">2020</span> when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+                            <p>Hello! My name is <span className="text-emerald-300">Rajan</span> and I enjoy creating things that live on the internet. My interest in web development started back in <span className="text-emerald-300">2020</span> when I decided to take hand in development filed and seeing attractive website makes me more enthusiastic for web - development then i started learning a lot about HTML & CSS!
                                 Here are a few technologies I’ve been working with recently:
                             </p>
                             <div className="md:px-4 mt-2">
