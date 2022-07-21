@@ -7,6 +7,7 @@ import BhartiTheme from '../Projects/BhartiTheme';
 import GitHubFinder from '../Projects/GitHubFinder';
 import MarvelHub from '../Projects/MarvelHub';
 import Spotify from '../Projects/Spotify';
+import SortingVisualizer from '../Projects/SortingVisualizer';
 const Project = () => {
     const [ShowProjects, setShowProjects] = useState(false);
     const handleShowMoreProjects = () => {
@@ -22,7 +23,7 @@ const Project = () => {
                     <h2 className="text-2xl md:text-4xl text-gray-400 font-medium"><span className='text-emerald-300'>02.</span> Some Things I’ve Built</h2>
                     <hr className='my-1 opacity-10' />
                     <StudentHub />
-
+                    <SortingVisualizer/>
                     <Spotify/>
 
                     <BhartiTheme />
