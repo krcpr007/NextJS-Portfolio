@@ -19,7 +19,7 @@ const BhartiTheme = () => {
                   alt="ProjectImage" className="object-cover w-full h-full" />
               </div>
             </div>
-            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 border-b-2 border-r-2">
+            <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 border">
               <h2 className="mt-2 text-3xl lg:text-4xl font-bold text-gray-400">
                 Bharti Theme
               </h2>
