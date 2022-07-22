@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import marvelhub from '../public/marvelhub.jpg'
+import marvelHub from '../public/marvelhub.jpg'
 import { FaGithubAlt } from 'react-icons/fa';
 import Button from '../Components/Button';
 function MarvelHub() {
@@ -15,8 +15,10 @@ function MarvelHub() {
                   <div className="w-3 h-3 ml-2 bg-yellow-400 rounded-full"></div>
                   <div className="w-3 h-3 ml-2 bg-green-400 rounded-full"></div>
                 </div>
-                <Image src={marvelhub}
-                  alt="ProjectImage" className="object-cover w-full h-full" />
+                <a href="/marvelhub.jpg">
+                  <Image src={marvelHub}
+                    alt="ProjectImage" className="object-cover w-full h-full" />
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 border">

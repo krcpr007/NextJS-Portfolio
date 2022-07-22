@@ -1,6 +1,5 @@
-
 import Image from 'next/image';
-import sorting from '../public/Sorting.gif'
+import Sorting from '../public/Sorting.gif';
 import Button from '../Components/Button';
 const SortingVisualizer = () => {
   return (
@@ -15,8 +14,10 @@ const SortingVisualizer = () => {
                   <div className="w-3 h-3 ml-2 bg-yellow-400 rounded-full"></div>
                   <div className="w-3 h-3 ml-2 bg-green-400 rounded-full"></div>
                 </div>
-                <Image src={sorting}
-                  alt="ProjectImage" className="object-cover w-full h-full" />
+                <a href="/Sorting.gif">
+                  <Image src={Sorting}
+                    alt="ProjectImage" className="object-cover w-full h-full" />
+                </a>
               </div>
             </div>
             <div className="w-full lg:w-1/2 xl:w-1/2 lg:pl-12 shadow-2xl rounded px-5 md:px-0 bg-gray-900 border-emerald-300 md:border">
